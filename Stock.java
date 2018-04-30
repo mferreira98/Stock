@@ -121,9 +121,7 @@ public class Stock {
         System.out.println("Enter a stock symbol: ");
         String sym = reader.next();
         reader.close();
-
-
-
+        
         Stock s = new Stock(sym);
         String price = s.getStockPrice();
         String mktcap = s.getMktCap();
